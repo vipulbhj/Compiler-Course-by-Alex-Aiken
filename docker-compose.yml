@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+  cool:
+    build: .
+    volumes:
+      - ./cs143:/usr/class/cs143
